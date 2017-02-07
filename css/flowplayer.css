@@ -296,6 +296,13 @@
 .flowplayer .fp-help p{font-size:9px;}
 .flowplayer .fp-logo{max-width: 130px;}
 .flowplayer .fp-subtitle p{font-size:15px !important;line-height:24px !important;padding:0 0.4em}
+#fv_player_pro_boxWrapper,#fv_player_pro_boxMiddleLeft,#fv_player_pro_boxMiddleRight,#fv_player_pro_boxTopLeft,#fv_player_pro_boxTopCenter,#fv_player_pro_boxTopRight,#fv_player_pro_boxBottomLeft,#fv_player_pro_boxBottomRight,#fv_player_pro_boxBottomCenter{background:transparent !important}
+#fv_player_pro_boxContent{background: #000 !important}
+.flowplayer.lightbox-starter,.flowplayer.lightboxed {background-color:transparent !important}
+#fv_player_pro_boxTopCenter,#fv_player_pro_boxTopLeft,#fv_player_pro_boxTopRight{height:0 !important}
+#fv_player_pro_boxMiddleLeft,#fv_player_pro_boxMiddleRight,#fv_player_pro_boxTopLeft,#fv_player_pro_boxTopRight,#fv_player_pro_boxBottomLeft,#fv_player_pro_boxBottomRight{width:0 !important}
+#fv_player_pro_boxCurrent{left:6px !important}
+#fv_player_pro_boxClose{margin-right:6px !important}
 }
 @media (max-width: 30em) {
 .flowplayer .fp-subtitle{bottom:4px}
