@@ -11,7 +11,7 @@
 /*
  *  Lightbox
  */
-if( typeof(jQuery().fv_player_pro_colorbox) == "undefined" ) {
+if( typeof(jQuery().fv_player_pro_colorbox) != "undefined" ) {
   
   function fv_player_colorbox_class( that ) {
     that = jQuery(that);
