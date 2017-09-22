@@ -11,9 +11,7 @@
 /*
  *  Lightbox
  */
-jQuery(document).ready(function(){
- 
-  if( typeof(jQuery().fv_player_pro_colorbox) == "undefined" ) return;
+if( typeof(jQuery().fv_player_pro_colorbox) == "undefined" ) {
   
   function fv_player_colorbox_class( that ) {
     that = jQuery(that);
@@ -131,7 +129,7 @@ jQuery(document).ready(function(){
   jQuery(document).bind('fv_player_pro_box_closed', function(e){
     fv_player_lightbox_fresh = true;
   });  
-});
+}
 
 
 //  todo: move to new code style
